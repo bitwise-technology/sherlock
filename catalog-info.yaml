@@ -1,0 +1,12 @@
+# sample-repo/catalog-info.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: client-service
+  description: Serviço principal do projeto do cliente
+  annotations:
+    github.com/project-slug: bitwise-technology/sample-repo
+spec:
+  type: service
+  lifecycle: production
+  owner: squad-bitwise
