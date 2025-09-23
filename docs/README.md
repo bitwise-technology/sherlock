@@ -18,7 +18,17 @@
 <img width="70%" height="70%" src="images/demo.png" alt="demo"/>
 </p>
 
+# Documentação do Projeto Sherlock
 
+Bem-vindo à documentação oficial do projeto Sherlock.
+
+## Sumário
+- [Visão Geral](#visão-geral)
+- [ADRs](adr/)
+- [Guias de Deploy](deploy/)
+
+## Visão Geral
+Descreva aqui o propósito do projeto, principais funcionalidades e informações gerais.
 ## Installation
 
 > [!WARNING]  

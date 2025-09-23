@@ -6,6 +6,7 @@ metadata:
   description: Serviço principal do projeto do cliente
   annotations:
     github.com/project-slug: bitwise-technology/sherlock
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: production
