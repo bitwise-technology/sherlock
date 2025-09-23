@@ -5,7 +5,7 @@ metadata:
   name: client-service
   description: Serviço principal do projeto do cliente
   annotations:
-    github.com/project-slug: bitwise-technology/sample-repo
+    github.com/project-slug: bitwise-technology/sherlock
 spec:
   type: service
   lifecycle: production
