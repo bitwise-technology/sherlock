@@ -1,10 +1,9 @@
-site_name: Sherlock – Documentação
+site_name: Client Service – Docs
+plugins:
+  - techdocs-core
 nav:
   - Visão Geral: docs/README.md
-  - Decisões de Arquitetura:
-      - docs/adr/
+  - Decisões de Arquitetura: docs/adr/
   - Deploy & Operação: docs/deploy/
   - Código de Conduta: docs/CODE_OF_CONDUCT.md
   - Sites Removidos: docs/removed-sites.md
-plugins:
-  - techdocs-core
