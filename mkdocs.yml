@@ -1,0 +1,10 @@
+site_name: Sherlock – Documentação
+nav:
+  - Visão Geral: docs/README.md
+  - Decisões de Arquitetura:
+      - docs/adr/
+  - Deploy & Operação: docs/deploy/
+  - Código de Conduta: docs/CODE_OF_CONDUCT.md
+  - Sites Removidos: docs/removed-sites.md
+plugins:
+  - techdocs-core

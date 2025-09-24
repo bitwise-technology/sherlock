@@ -2,12 +2,25 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: client-service
-  description: Serviço principal do projeto do cliente
+  name: sherlock
+  description: CLI/serviço OSINT para buscar contas por username em redes sociais.
+  tags: [osint, cli, security]
+  links:
+    - url: https://github.com/bitwise-technology/sherlock
+      title: GitHub Repo
+    - url: https://sherlockproject.xyz
+      title: Site / Docs públicos
   annotations:
     github.com/project-slug: bitwise-technology/sherlock
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:./docs
+    # Se tiver deploy em K8s, use um label selector com o mesmo valor:
+    # backstage.io/kubernetes-id: sherlock
+    # Exemplos de integrações (preencha se usar):
+    # grafana/dashboard-url: https://grafana.example.com/d/sherlock
+    # pagerduty.com/service-id: ABCDEFG
+    # sonarqube.org/project-key: sherlock
 spec:
   type: service
   lifecycle: production
-  owner: squad-bitwise
+  owner: group:default/squad-bitwise
+  system: osint-platform
